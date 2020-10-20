@@ -9,7 +9,7 @@ import ThirdScreen from "./screens/Screen3"
 import Example1 from "./screens/StateExample"
 import Example2 from "./screens/UseEffectExample"
 import StylingExample from "./screens/Styling"
-import FetchExample from "./screens/ResourceRetrival"
+import FetchExample from "./screens/ResourceRetrieval"
 import { startClock } from 'react-native-reanimated';
 const Stack = createStackNavigator();
 // This file is the main "entry point" of the app
