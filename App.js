@@ -3,13 +3,13 @@ import * as React from 'react';
 import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from "./screens/screen1"
-import SecondScreen from "./screens/screen2"
-import ThirdScreen from "./screens/screen3"
+import HomeScreen from "./screens/Screen1"
+import SecondScreen from "./screens/Screen2"
+import ThirdScreen from "./screens/Screen3"
 import Example1 from "./screens/StateExample"
-import Example2 from "./screens/useEffectExample"
+import Example2 from "./screens/UseEffectExample"
 import StylingExample from "./screens/Styling"
-import FetchExample from "./screens/resourceRetrival"
+import FetchExample from "./screens/ResourceRetrival"
 import { startClock } from 'react-native-reanimated';
 const Stack = createStackNavigator();
 // This file is the main "entry point" of the app

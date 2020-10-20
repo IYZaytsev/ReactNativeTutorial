@@ -1,6 +1,7 @@
 import * as React from "react";
 import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
 export default function CustomComponent(props) {
+    // Notice the .jsx ending instead of js, both work react is weird
     // Componenets are useful because they can break up your code into more managable chuncks
     // They can have their own states and props just like pages
     // Using more compoenents in ur code makes performance better and is easier to deal with 

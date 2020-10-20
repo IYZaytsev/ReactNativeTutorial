@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
-import CustomComponent from "../components/example"
+import CustomComponent from "../components/Example"
 export default function StylingExample(props) {
     
     return (
